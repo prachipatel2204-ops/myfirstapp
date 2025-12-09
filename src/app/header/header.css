@@ -1,0 +1,46 @@
+/* Header */
+.app-header {
+  background-color: #1976d2; /* Same blue */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #1976d2; /* Same blue for consistency */
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Nav Bar */
+.app-nav {
+  background-color: #1565c0; /* Slightly darker blue than header/footer */
+}
+
+.app-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center items */
+}
+
+.app-nav li {
+  margin: 0 15px;
+}
+
+.app-nav a {
+  display: block;
+  padding: 20px 28px;       /* Bigger padding for height and width */
+  font-size: 22px;          /* Larger text size */
+  font-weight: bold;        /* Bold text for visibility */
+  color: white;
+  text-decoration: none;
+}
+
+.app-nav a:hover {
+  background-color: #555;
+}
+

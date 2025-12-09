@@ -1,0 +1,35 @@
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+.left-image img {
+  width: 900px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.right-text {
+  max-width: 600px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.right-text h2 {
+  margin-bottom: 15px;
+  color: #1976d2;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.right-text p {
+  font-size: 25px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+  
+}
+
