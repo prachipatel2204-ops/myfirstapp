@@ -6,8 +6,8 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   //templateUrl: './app.html',
   //styleUrl: './app.css'
-  template:`<h1>Hello</h1> <h2>Hi</h2> <h3>How Are You</h3>`,
-  styles:`h1{color:blue;font-size:80px} h2{color:green;font-size:70px} h3{color:red;font-size:60px}`
+  template:`<h1>Hello</h1> <h2>Hi</h2> <h3>How Are You</h3> <h4>Fine</h4>`,
+  styles:`h1{color:blue;font-size:80px} h2{color:green;font-size:70px} h3{color:red;font-size:60px} h4{color:yellow;font-size:50px}`
 })
 export class App {
   protected readonly title = signal('myfirstapp');
