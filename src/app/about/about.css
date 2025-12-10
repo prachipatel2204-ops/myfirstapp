@@ -1,0 +1,28 @@
+.about-container p {
+  font-size: 25px;
+  line-height: 1.9;
+  color: #444;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-images {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-images img {
+  width: 32%;
+  min-width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
