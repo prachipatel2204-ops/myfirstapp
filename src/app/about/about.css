@@ -1,28 +1,62 @@
-.about-container p {
-  font-size: 25px;
-  line-height: 1.9;
-  color: #444;
-  margin: 10px 0;
-  text-align: justify;
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
 }
 
-.about-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
+.about-container h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.about-container p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #555;
+  margin: 12px 0;
 }
 
 .about-images {
   display: flex;
   gap: 15px;
-  margin: 20px 0;
+  margin: 25px 0;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .about-images img {
-  width: 32%;
-  min-width: 200px;
-  border-radius: 10px;
+  width: 28%;
+  min-width: 180px;
+  border-radius: 12px;
   object-fit: cover;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-images img:hover {
+  transform: scale(1.05);
+}
+
+.about-highlight {
+  margin-top: 15px;
+  margin-bottom: 40px; /* space below so it doesn't touch footer */
+  background: #1976d2;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.about-highlight:hover {
+  transform: translateY(-3px); /* small lift on hover */
+}
+
+.about-highlight h2 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
 }

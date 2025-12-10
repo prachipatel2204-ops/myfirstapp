@@ -14,3 +14,5 @@ export class Pagenotfound {
     this.router.navigate(['/middlecontent'])
   }
 }
+
+
