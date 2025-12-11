@@ -1,0 +1,58 @@
+/* Admin Contact CSS */
+.admin-contact {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.admin-contact h2 {
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.contact-form .form-item {
+  margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1254a1;
+}

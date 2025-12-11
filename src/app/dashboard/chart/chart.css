@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.chart-box {
+  border: 1px solid #d1d1d1;
+  padding: 18px;
+  margin: 18px 0;
+  border-radius: 6px;
+  background: #f7f7f7;
+}
+
+.chart-box h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #333;
+}
+
+.chart-box p {
+  margin: 0;
+  color: #555;
+  font-size: 15px;
+}
